@@ -41,7 +41,7 @@
     }
 
     .pro-cont {
-        grid-column: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
