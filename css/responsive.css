@@ -7,8 +7,10 @@
         justify-content: center;
         align-items: center;
     }
-    .nav-cont {
+    .nav-cont
+    {
         flex-direction: column;
+        height: auto;
     }
 
     .menu li {
@@ -16,6 +18,20 @@
         margin-right: 10px;
         padding: 5px;
         width: auto;
+    }
+
+    .btn-primary {
+        position: static;
+        margin: 3rem 0rem;
+    }
+
+    h2, p {
+        margin-bottom: 2rem;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 1rem;
     }
 }
 
@@ -34,5 +50,19 @@
         font-size: 1rem;
         margin-right: 1rem;
         width: auto;
+    }
+
+    .btn-primary {
+        position: static;
+        margin: 3rem 0rem;
+    }
+
+    h2, p {
+        margin-bottom: 2rem;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin-right: 2rem;
     }
 }

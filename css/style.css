@@ -8,6 +8,23 @@
 }
 
 /* shared */
+.btn-primary {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border: none;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1rem;
+    cursor: pointer;
+}
 
 /* nav */
 .nav-cont {
@@ -48,4 +65,39 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* bznner */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 5rem;
+}
+
+.ban-desk h2 {
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem; /* 134.615% */
+}
+
+.ban-desk p {
+    height: 3.80rem;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.ban-img {
+    background-image: url("../images/Circle\ design.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
