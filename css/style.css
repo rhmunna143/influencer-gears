@@ -101,3 +101,23 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* Main sec */
+main {
+    width: 100%;
+    margin: 4rem auto;
+}
+
+/* sponcer sec */
+.sponsor {
+    display: flex;
+    justify-content: center;
+}
+
+.spon-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70vw;
+    margin: 4rem 0rem;
+}

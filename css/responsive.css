@@ -7,7 +7,8 @@
         justify-content: center;
         align-items: center;
     }
-    .nav-cont
+    .nav-cont,
+    .spon-cont
     {
         flex-direction: column;
         height: auto;
@@ -33,6 +34,10 @@
         flex-direction: column-reverse;
         margin: 1rem;
     }
+
+    .spon-img {
+        margin-bottom: 2rem;
+    }
 }
 
 /* mid device */
@@ -42,7 +47,9 @@
         justify-content: center;
         align-items: center;
     }
-    .nav-cont {
+    .nav-cont,
+    .spon-cont
+    {
         flex-direction: column;
     }
 
@@ -64,5 +71,9 @@
     .banner-container {
         flex-direction: column-reverse;
         margin-right: 2rem;
+    }
+
+    .spon-img {
+        margin-bottom: 2rem;
     }
 }
