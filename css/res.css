@@ -1,0 +1,169 @@
+/* Small devices (up to 767px) */
+@media (max-width: 767px) {
+    /* Update styles for small devices here */
+    .nav-cont {
+        height: auto;
+    }
+
+    .menu li {
+        margin-right: 1rem;
+    }
+
+    .logo-t h5 {
+        width: 150px;
+        height: auto;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        margin: 2rem 2rem;
+    }
+
+    .ban-desk h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .ban-desk p {
+        height: auto;
+        line-height: 1.5rem;
+    }
+
+    .spon-cont {
+        flex-direction: column;
+    }
+
+    .pro-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pro-itm {
+        width: 16rem;
+        height: 18rem;
+    }
+
+    .join-cont {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .join-cont h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .join-cont p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+}
+
+/* Medium devices (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Update styles for medium devices here */
+    .nav-cont {
+        height: auto;
+    }
+
+    .menu li {
+        margin-right: 1.5rem;
+    }
+
+    .logo-t h5 {
+        width: 200px;
+        height: auto;
+    }
+
+    .banner-container {
+        margin: 2rem 4rem;
+    }
+
+    .ban-desk h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .ban-desk p {
+        height: auto;
+        line-height: 2.5rem;
+    }
+
+    .pro-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pro-itm {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .join-cont {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .join-cont h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .join-cont p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+/* Large devices (1024px and above) */
+@media (min-width: 1024px) {
+    /* Update styles for large devices here */
+    .nav-cont {
+        height: 100px;
+    }
+
+    .menu li {
+        margin-right: 2rem;
+    }
+
+    .logo-t h5 {
+        width: 243px;
+        height: 52.2px;
+    }
+
+    .banner-container {
+        margin: 3rem 5rem;
+    }
+
+    .ban-desk h2 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .ban-desk p {
+        height: 3.80rem;
+        line-height: 2rem;
+    }
+
+    .pro-cont {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pro-itm {
+        width: 20rem;
+        height: 22rem;
+    }
+
+    .join-cont {
+        flex-direction: row;
+        gap: 6rem;
+    }
+
+    .join-cont h3 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .join-cont p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
