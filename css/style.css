@@ -156,3 +156,38 @@ main {
     margin-right: 8rem;
     background-color: gray;
 }
+
+/* join section */
+.join-cont {
+    width: 85vw;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6rem;
+}
+
+.join-cont h3 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 157.895% */
+}
+
+.join-cont p {
+    margin-top: 1rem;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 175% */
+}
+
+#btn {
+    border-radius: 0;
+}
+
+/* Footer */
